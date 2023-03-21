@@ -7,5 +7,10 @@ def last_element(lst):
         >>> last_element([]) is None
         True
     """
+    if lst == []:
+        return True 
+    else:
+        return lst.pop()
+    
     # if list is [] return true 
     # else pop = last item 

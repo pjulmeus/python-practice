@@ -10,3 +10,10 @@ def same_frequency(num1, num2):
         >>> same_frequency(1212, 2211)
         True
     """
+    #  make the list a set 
+    dict1 = {}
+    print(num1.split(""))
+    for n1 in num1:
+        print(n1)
+        dict[n1] = num1.count(n1)
+    return dict

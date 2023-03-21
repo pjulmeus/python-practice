@@ -11,3 +11,14 @@ def mode(nums):
         >>> mode([2, 2, 3, 3, 2])
         2
     """
+    # iterate 
+    # count the numerb and 
+    count = 0 
+    number = 0 
+    for num in nums: 
+        num_count = nums.count(num)
+        if num_count >= count:
+            count = num_count
+            number = num 
+    return number
+

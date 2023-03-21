@@ -21,3 +21,6 @@ def sum_pairs(nums, goal):
         >>> sum_pairs([11, 20, 4, 2, 1, 5], 100)
         ()
     """
+    for num in nums:
+        if (num + num.index(1)) == goal:
+            return tuple(num, num[+1])
